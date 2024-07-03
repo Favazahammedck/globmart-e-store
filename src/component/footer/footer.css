@@ -1,0 +1,164 @@
+.Footer-Container {
+  display: flex;
+  background-color: #72a0c1;
+
+  color: white;
+}
+
+.Footer-LeftContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo-image-footer {
+  height: 40px;
+  width: 136px;
+}
+
+.Footer-Desc {
+  margin: 20px 0px;
+}
+
+.Footer-SocialContainer {
+  display: flex;
+}
+
+.Footer-SocialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Footer-SocialIcon a {
+  text-decoration: none;
+  color: inherit;
+}
+.Footer-CenterContainer {
+  flex: 1;
+  padding: 20px;
+}
+
+.Footer-Title {
+  margin-bottom: 30px;
+  /* color: #412246; */
+  text-decoration: underline;
+}
+
+.Footer-List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Footer-ListItem {
+  width: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Footer-RightContainer {
+  flex: 1;
+  padding: 20px;
+}
+
+.Footer-ContactItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Footer-Payment {
+  width: 50%;
+}
+.contact-us-and-others-and-copyright {
+  background-color: #72a0c1;
+  color: white;
+}
+.contact-us-and-others-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: underline;
+  font-size: 13px;
+  gap: 20px;
+  cursor: pointer;
+}
+.contact-number-whatsapp-redirection {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.copy-right-wrapper {
+  text-align: center;
+}
+.filter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #72a0c1;
+  gap: 10px;
+}
+
+.filter-section select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+}
+
+.filter-section select option {
+  padding: 8px 12px;
+}
+
+.filter-section select option:hover {
+  background-color: #f0f0f0;
+}
+
+.filter-section select:focus {
+  border-color: #72a0c1;
+}
+
+.filter-section select::-ms-expand {
+  display: none;
+}
+
+.filter-section select:after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 800px) {
+  .Footer-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Footer-Title {
+    text-align: center;
+    font-size: 13px;
+  }
+  .Footer-Desc,
+  .Footer-ListItem,
+  .Footer-ContactItem {
+    font-size: 12px;
+  }
+}

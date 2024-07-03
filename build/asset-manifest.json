@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa96baaf.css",
+    "main.js": "/static/js/main.3b4feecf.js",
+    "static/media/banner1.png": "/static/media/banner1.2333dc69fddec73012aa.png",
+    "static/media/banner2.png": "/static/media/banner2.ed2170c0a90c78f9e499.png",
+    "static/media/banner3.png": "/static/media/banner3.2e03415c591f1200d917.png",
+    "static/media/cart.png": "/static/media/cart.9ef0216b71e6c3c4885c.png",
+    "static/media/globmart-logo.png": "/static/media/globmart-logo.9fc46ab7971fcdd3f318.png",
+    "static/media/cart-empty.png": "/static/media/cart-empty.49efd90ea75b10bede28.png",
+    "index.html": "/index.html",
+    "main.aa96baaf.css.map": "/static/css/main.aa96baaf.css.map",
+    "main.3b4feecf.js.map": "/static/js/main.3b4feecf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa96baaf.css",
+    "static/js/main.3b4feecf.js"
+  ]
+}
